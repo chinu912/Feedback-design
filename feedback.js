@@ -21,9 +21,9 @@ ratingsContainer.addEventListener("click", (e) => {
 sendButton.addEventListener("click", (e) => {
   panel.innerHTML = `
         <i class="fas fa-heart"></i>
-        <strong>Thank You!</strong>
+        <strong>Thank You so much !</strong>
         <br>
         <strong>Feedback: ${selectedRating}</strong>
-        <p>We'll use your feedback to improve our customer support</p>
+        <p>We'll use your feedback to improve our support</p>
     `;
 });
